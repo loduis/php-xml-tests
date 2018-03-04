@@ -9,7 +9,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "XML\\Tests\\": "src/"
         }

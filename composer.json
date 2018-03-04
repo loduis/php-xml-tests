@@ -14,8 +14,8 @@
             "XML\\Tests\\": "src/"
         }
     },
-    "require-dev": {
+    "require": {
         "phpunit/phpunit": "^6.5",
-        "spatie/phpunit-snapshot-assertions": "dev-master"
+        "spatie/phpunit-snapshot-assertions": "master"
     }
 }

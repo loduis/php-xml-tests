@@ -16,6 +16,6 @@
     },
     "require": {
         "phpunit/phpunit": "^6.5",
-        "spatie/phpunit-snapshot-assertions": "master"
+        "spatie/phpunit-snapshot-assertions": "^1.2.1"
     }
 }

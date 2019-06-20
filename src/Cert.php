@@ -8,7 +8,9 @@ class Cert
 {
     public static function file($ext)
     {
-        return __DIR__ . '/../utils/cert.' . $ext;
+        $filename = strpos($ext, '.') === false ? 'cert.' . $ext : $filename;
+
+        return __DIR__ . '/../utils/' . $filename;
     }
 
     public function content($ext)

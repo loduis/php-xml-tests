@@ -8,7 +8,6 @@
             "email": "loduis@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "XML\\Tests\\": "src/"
@@ -16,7 +15,12 @@
     },
     "require": {
         "php": ">=7.3",
-        "phpunit/phpunit": "^8",
+        "phpunit/phpunit": "^8|^9.0",
         "spatie/phpunit-snapshot-assertions": "^3.0.0"
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }

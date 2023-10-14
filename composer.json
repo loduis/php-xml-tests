@@ -16,7 +16,7 @@
     "require": {
         "php": ">=7.3",
         "phpunit/phpunit": "^8|^9.0",
-        "spatie/phpunit-snapshot-assertions": "^3.0.0"
+        "spatie/phpunit-snapshot-assertions": "^4.2.16"
     },
     "config": {
         "sort-packages": true
